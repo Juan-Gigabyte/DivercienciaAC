@@ -1,0 +1,48 @@
+h1{
+  color: blue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+.grid-item {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.buttonNucleus{
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  padding-right: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.ringMid{
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 50%;
+}
+
+.ring{
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 50%;
+}
